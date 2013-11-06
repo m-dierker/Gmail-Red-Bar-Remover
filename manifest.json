@@ -1,0 +1,14 @@
+{
+  "name": "Gmail Red Bar Remover",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["http://mail.google.com/*", "https://mail.google.com/*"],
+      "js": ["jquery.js", "gmail.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    "jquery-1.10.2.min.map"
+  ],
+  "manifest_version": 2
+}
