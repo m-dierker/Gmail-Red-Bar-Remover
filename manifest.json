@@ -10,5 +10,6 @@
   "web_accessible_resources": [
     "jquery-1.10.2.min.map"
   ],
-  "manifest_version": 2
+  "manifest_version": 2,
+  "update_url" : "http://updates.eatcumtd.com/gmail-red-bar-remover/updates.xml"
 }
